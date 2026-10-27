@@ -4,11 +4,9 @@ Welcome to my developer portfolio repository! This project showcases my web deve
 
 ## Live Portfolio
 
-Explore my portfolio website to learn more about my work, technical skills, and experience.
+Explore my portfolio website to learn more about my projects, technical skills, and experience.
 
-**Website:** [View My Portfolio](YOUR_LIVE_PORTFOLIO_URL)
-
-> Replace `YOUR_LIVE_PORTFOLIO_URL` with your actual published website URL before committing.
+**Website:** [Visit My Portfolio](https://sally-kadi.github.io/sally-portfolio/)
 
 ## About Me
 
@@ -77,7 +75,7 @@ A web development project demonstrating structured navigation and dynamic pages 
 - **Backend:** PHP, Server-Side Logic, CRUD Operations
 - **Database:** MySQL, SQL, phpMyAdmin
 - **Tools:** Git, GitHub, VS Code, XAMPP
-- **Framework Exposure:** React, Next.js
+- **Framework Experience:** Next.js and React through project work
 
 ## Technologies Used in This Portfolio
 
@@ -90,9 +88,6 @@ A web development project demonstrating structured navigation and dynamic pages 
 ```text
 sally-portfolio/
 ├── images/
-│   ├── brew-co.png
-│   ├── business-portfolio.png
-│   └── yehia-career-path.png
 ├── index.html
 ├── style.css
 ├── script.js
