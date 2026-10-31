@@ -36,6 +36,8 @@ a {
   margin: auto;
 }
 
+/* NAVBAR */
+
 .header {
   position: sticky;
   top: 0;
@@ -86,6 +88,8 @@ a {
   font-size: 28px;
   cursor: pointer;
 }
+
+/* HERO */
 
 .hero {
   padding: 110px 0 100px;
@@ -168,6 +172,8 @@ a {
   font-size: 14px;
 }
 
+/* SECTIONS */
+
 .section {
   padding: 90px 0;
 }
@@ -188,6 +194,8 @@ a {
   color: var(--muted);
   margin-bottom: 35px;
 }
+
+/* INFO AND SKILLS */
 
 .info-grid,
 .skills-grid,
@@ -226,6 +234,8 @@ a {
   font-size: 14px;
 }
 
+/* PROJECTS */
+
 .projects-grid {
   grid-template-columns: repeat(3,minmax(0,1fr));
   align-items: stretch;
@@ -234,7 +244,6 @@ a {
 .project-card {
   display: flex;
   flex-direction: column;
-  gap: 0;
   padding: 23px;
   box-shadow: 0 6px 25px rgba(30,55,85,.04);
 }
@@ -301,6 +310,8 @@ a {
   opacity: 1;
 }
 
+/* CONTACT */
+
 .contact-section {
   text-align: center;
 }
@@ -313,6 +324,24 @@ a {
   justify-content: center;
 }
 
+/* CV BUTTONS */
+
+.hero .actions,
+.contact-section .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.hero .actions .btn,
+.contact-section .actions .btn {
+  display: inline-flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* FOOTER */
+
 .footer {
   text-align: center;
   padding: 22px 0;
@@ -320,6 +349,8 @@ a {
   font-size: 13px;
   color: var(--muted);
 }
+
+/* RESPONSIVE */
 
 @media (max-width: 1000px) {
   .projects-grid,
@@ -346,7 +377,7 @@ a {
     border-bottom: 1px solid var(--border);
   }
 
-  .nav-links.active {
+  .nav-links.open {
     display: flex;
   }
 
